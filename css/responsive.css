@@ -1,0 +1,243 @@
+/* responsive design */
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* header navbar part */
+    ul,
+    li,
+    a {
+        display: none;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+        margin-bottom: 66px;
+    }
+
+    .banner {
+        height: 380px;
+    }
+
+    /* service section */
+    .service {
+        flex-direction: column;
+    }
+
+    .service_item p {
+        text-align: center;
+        margin: 18px auto;
+        width: 80%;
+    }
+
+    /* portfolio section */
+    .portfolio_description {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .portfolio_item:hover.overly {
+        background-color: #f10707c9;
+        opacity: 0.5;
+    }
+
+    /* team section */
+    .team_description {
+        flex-direction: column;
+    }
+
+    .team_info {
+        margin-bottom: 30px;
+    }
+
+    /*social media section  */
+    .social_media {
+        flex-direction: column;
+    }
+
+    .media_item {
+        padding: 0px 0px;
+    }
+
+    .social_item h1 {
+        font-size: 42px;
+        margin: 10px 0px;
+    }
+
+    /* contact part */
+    form.form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .form_right_part {
+        margin-top: 15px;
+    }
+
+    /* footer section */
+    .fotter_description {
+        flex-direction: column;
+    }
+
+    .fotter_description .social_icon {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* heder navbar part */
+    ul,
+    li,
+    a {
+        display: none;
+    }
+
+    /* banner part */
+    .logo h1 {
+        font-size: 1.6rem;
+    }
+
+    /* .gap-5 {
+        gap: 1rem !important;
+
+    } */
+
+    ul,
+    li,
+    a:last-child {
+        margin-right: 0px;
+    }
+
+    .banner h1 {
+        font-size: 38px;
+        margin-bottom: 44px;
+    }
+
+    .primaray_btn {
+        padding: 12px 10px;
+        font-size: 1rem;
+    }
+
+    .banner {
+        height: 320px;
+    }
+
+    /* service part */
+    .main_heading {
+        font-size: 2rem;
+    }
+
+    .service {
+        flex-direction: column;
+    }
+
+    .second_pera {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    /* portfolio part */
+    .portfolio_description {
+        grid-template-columns: repeat(1, 1fr) !important;
+        justify-content: center;
+        padding: 0px 50px;
+    }
+
+    /* team section */
+    .team_part {
+        padding: 1px 0px 20px;
+    }
+
+    .team_description {
+        flex-direction: column;
+    }
+
+    .team_peragraph {
+        margin: 0px auto;
+    }
+
+    .team_info {
+        margin-bottom: 30px;
+    }
+
+
+    /* social media part */
+    .social_media {
+        flex-direction: column;
+    }
+
+    /* contact part */
+    form.form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .form_right_part {
+        margin-top: 17px;
+    }
+
+    /* footer part */
+    .fotter_description {
+        flex-direction: column;
+    }
+
+    .fotter_description p {
+        font-size: 1.05rem;
+    }
+
+    .social_icon i {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    /* header parat */
+    .logo h1 {
+        margin-left: 10px;
+    }
+
+    ol,
+    ul,
+    dl {
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+
+    /* portfolio part */
+    .portfolio_description {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* team part */
+    .team_description {
+        flex-direction: column;
+    }
+
+    .team_part {
+        padding: 1px 0px 20px;
+    }
+
+    /* social part */
+    .social_icon {
+        margin-bottom: 13px;
+    }
+
+    /* contact part */
+    form.form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .form_right_part {
+        margin-top: 18px;
+    }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+/*  XX-Large devices (larger desktops) */

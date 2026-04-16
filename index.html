@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Responsive Website</title>
+    <!-- google fonts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"
+        integrity="sha512-v/wOVTkoU7mXEJC3hXnw9AA6v32qzpknvuUF6J2Lbkasxaxn2nYcl+HGB7fr/kChGfCqubVr1n2sq1UFu3Gh1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- font aswame link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- header part -->
+    <!-- <header class="container mx-auto position-relative">
+        <nav class="navbar d-flex justify-content-between align-items-center bg-dark text-white py-3 ">
+            <div class="logo">
+                <h1><i>Start Bootstrap</i></h1>
+            </div>
+
+            <ul class="d-flex gap-5 gap-md-2 ">
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="banner pt-5">
+            <div class="banner_info text-center text-light">
+                <h3 class="fw-semibold fs-2 mb-3"><i>Welcome To Our Studio!</i></h3>
+                <h1 class="fw-bold text-uppercase">It's Nice To Meet You</h1>
+                <button type="button" class="primaray_btn">Tell Me More</button>
+            </div>
+
+        </div>
+    </header> -->
+    <!-- header part end -->
+
+    <!-- carousl part -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="2000"
+                data-pause="hover">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <header class="container mx-auto position-relative">
+                            <!-- navbar part -->
+                            <nav class="navbar d-flex justify-content-between align-items-center bg-dark text-white py-3
+                                ">
+                                <div class="logo">
+                                    <h1><i>Start Bootstrap</i></h1>
+                                </div>
+
+
+                                <ul class="d-flex gap-5 gap-md-2 ">
+                                    <li><a href="#">Service</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                                <i class="fa-solid fa-bars d-md-none d-xl-none"></i>
+                            </nav>
+                            <!-- banner part -->
+                            <div class="banner banner_1 pt-5">
+                                <div class="banner_info text-center text-light">
+                                    <h3 class="fw-semibold fs-2 mb-3"><i>Welcome To Our Studio!</i></h3>
+                                    <h1 class="fw-bold text-uppercase">It's Nice To Meet You</h1>
+                                    <button type="button" class="primaray_btn">Tell Me More</button>
+                                </div>
+
+                            </div>
+                        </header>
+                    </div>
+                    <div class="carousel-item">
+                        <header class="container mx-auto position-relative">
+                            <nav
+                                class="navbar d-flex justify-content-between align-items-center bg-dark text-white py-3 ">
+                                <div class="logo">
+                                    <h1><i>Start Bootstrap</i></h1>
+                                </div>
+
+                                <ul class="d-flex gap-5 gap-md-2 ">
+                                    <li><a href="#">Service</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                                <i class="fa-solid fa-bars d-md-none d-xl-none"></i>
+                            </nav>
+                            <div class="banner banner_2 pt-5">
+                                <div class="banner_info text-center text-light">
+                                    <h3 class="fw-semibold fs-2 mb-3"><i>Welcome To Our Studio!</i></h3>
+                                    <h1 class="fw-bold text-uppercase">It's Nice To Meet You</h1>
+                                    <button type="button" class="primaray_btn">Tell Me More</button>
+                                </div>
+
+                            </div>
+                        </header>
+                    </div>
+                    <div class="carousel-item">
+                        <header class="container mx-auto position-relative">
+                            <nav
+                                class="navbar d-flex justify-content-between align-items-center bg-dark text-white py-3 ">
+                                <div class="logo">
+                                    <h1><i>Start Bootstrap</i></h1>
+                                </div>
+
+                                <ul class="d-flex gap-5 gap-md-2 ">
+                                    <li><a href="#">Service</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                                <i class="fa-solid fa-bars d-md-none d-xl-none"></i>
+                            </nav>
+                            <div class="banner banner_3 pt-5">
+                                <div class="banner_info text-center text-light">
+                                    <h3 class="fw-semibold fs-2 mb-3"><i>Welcome To Our Studio!</i></h3>
+                                    <h1 class="fw-bold text-uppercase">It's Nice To Meet You</h1>
+                                    <button type="button" class="primaray_btn">Tell Me More</button>
+                                </div>
+
+                            </div>
+                        </header>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- carsoul part end -->
+    <!-- service part start-->
+    <main class="service_part container mx-auto">
+        <h1 class="main_heading">Services</h1>
+        <p class="primary_pera">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="service d-flex justify-content-between align-items-center text-center gap-x-5 mt-5">
+            <div class="service_item">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+                <h3 class="my-3 fw-bold">E-Commerce</h3>
+                <p class="second_pera">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                    architecto quo inventore
+                    harum ex magni,
+                    dicta impedit.</p>
+            </div>
+            <div class="service_item">
+                <i class="fa-solid fa-laptop"></i>
+                <h3 class="my-3 fw-bold">Responsive Design</h3>
+                <p class="second_pera">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                    architecto quo inventore
+                    harum ex
+                    magni,
+                    dicta impedit.</p>
+            </div>
+            <div class="service_item">
+                <i class="fa-solid fa-lock"></i>
+                <h3 class="my-3 fw-bold">Web Security</h3>
+                <p class="second_pera">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                    architecto quo inventore
+                    harum ex
+                    magni,
+                    dicta impedit.</p>
+            </div>
+        </div>
+    </main>
+    <!-- service part end -->
+    <!-- Portfolio section -->
+    <section class="portfolio container mx-auto">
+        <h1 class="main_heading">Portfolio</h1>
+        <p class="primary_pera">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="portfolio_description text-center">
+            <div class="portfolio_item">
+                <img src="img/1.jpg" alt="">
+                <h4 class="mt-3 fw-semibold">Threads</h4>
+                <p class="primary_pera">Illustration</p>
+                <div class="overly">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+
+            <div class="portfolio_item">
+                <img src="img/2.jpg" alt="">
+                <h4 class="mt-3 fw-semibold">Explore</h4>
+                <p class="primary_pera">Graphic Design</p>
+                <div class="overly">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="portfolio_item">
+                <img src="img/3.jpg" alt="">
+                <h4 class="mt-3 fw-semibold">Finish</h4>
+                <p class="primary_pera">Identity</p>
+                <div class="overly">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="portfolio_item">
+                <img src="img/4.jpg" alt="">
+                <h4 class="mt-3 fw-semibold">Lines</h4>
+                <p class="primary_pera">Branding</p>
+                <div class="overly">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="portfolio_item">
+                <img src="img/5.jpg" alt="">
+                <h4 class="mt-3 fw-semibold">Southwest</h4>
+                <p class="primary_pera">Website Design</p>
+                <div class="overly">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="portfolio_item">
+                <img src="img/6.jpg" alt="">
+                <h4 class="mt-3 fw-semibold">Window</h4>
+                <p class="primary_pera">Photography</p>
+                <div class="overly">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- protfolio part end -->
+    <!-- about part -->
+    <!-- <section class="container">
+        <h1 class="main_heading">About</h1>
+        <p class="primary_pera">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="about_section">
+            <div class="humble">
+                <h4>2009-2011</h4>
+                <h4>Our Humble Beginnings</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam
+                    reiciendis
+                    temporibus
+                    qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+            </div>
+            <div>
+                <img class="about_img" src="img/1 (1).jpg" alt="">
+            </div>
+
+            <div class="agency">
+                <h4>March 2011</h4>
+                <h4>An Agency is Born</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam
+                    reiciendis
+                    temporibus
+                    qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+            </div>
+            <div>
+                <img class="about_img" src="img/2 (1).jpg" alt="">
+            </div>
+            <div class="transtion">
+                <h4>December 2015</h4>
+                <h4>Transition to Full Service</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam
+                    reiciendis temporibus
+                    qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+            </div>
+            <div>
+                <img class="about_img" src="img/3 (1).jpg" alt="">
+            </div>
+
+            <div class="phase">
+                <h4>July 2020</h4>
+                <h4>Phase Two Expansion</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam
+                    reiciendis temporibus
+                    qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+            </div>
+            <h3>Be Part Of Our Story!</h3>
+        </div>
+
+ -->
+
+    </section>
+    <!-- about section end -->
+    <!-- team section -->
+    <section class="team_part container mx-auto">
+        <h1 class="main_heading">Our Amazing Team</h1>
+        <p class="primary_pera">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="team_description d-flex justify-content-around align-items-center text-center mt-5">
+            <div class="team_info">
+                <img src="img/anand.jpg" alt="">
+                <h3 class="fw-semibold">Parveen Anand</h3>
+                <p>Lead Designer</p>
+                <div class="social_icon d-flex align-items-center justify-content-center gap-4">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="team_info">
+                <img src="img/diana.jpg" alt="">
+                <h3 class="fw-semibold">Diana Petersen</h3>
+                <p>Lead Marketer</p>
+                <div class="social_icon d-flex align-items-center justify-content-center gap-4">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="team_info">
+                <img src="img/larry.jpg" alt="">
+                <h3 class="fw-semibold">Larry Parker</h3>
+                <p>Lead Developer</p>
+                <div class="social_icon d-flex align-items-center justify-content-center gap-4">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+        <div class="team_peragraph">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non
+                quis ad
+                perspiciatis, totam corporis ea, alias ut unde.</p>
+        </div>
+    </section>
+    <!-- team section end -->
+    <!-- social media part -->
+    <section class="media_item container mx-auto">
+        <div class="social_media d-flex justify-content-around align-items-center">
+            <div class="social_item">
+                <h1>Microsoft</h1>
+            </div>
+            <div class="social_item">
+                <h1>Google</h1>
+            </div>
+            <div class="social_item">
+                <h1>Facebook</h1>
+            </div>
+            <div class="social_item">
+                <h1>IBM</h1>
+            </div>
+        </div>
+    </section>
+    <!-- social part end -->
+    <!-- contact part -->
+    <section class="contact container mx-auto bg-dark">
+        <h1 class="main_heading">Contact Us</h1>
+        <p class="primary_pera">Lorem ipsum dolor sit amet consectetur.</p>
+        <form class="form ">
+            <div class="form_left_part d-flex flex-column row-gap-3 w-100 ">
+                <input type="text" name="name" id="name" placeholder="Your name*">
+                <input type="email" name="email" id="email" placeholder="Your email*">
+                <input type="number" name="number" id="number" placeholder="Phone*">
+            </div>
+            <div class="form_right_part w-100">
+                <textarea name="textarea" id="message" cols="30" rows="10" class="w-100"></textarea>
+            </div>
+
+        </form>
+        <div class="form_btn d-flex justify-content-center align-items-center mt-5">
+            <button type="submit" class="primaray_btn">Send message</button>
+        </div>
+
+    </section>
+    <!-- form part end -->
+    <!-- footer part -->
+    <footer class="container mx-auto">
+        <div class="fotter_description d-flex justify-content-around align-items-center py-5">
+            <div class="footer_item">
+                <p>Copyright © Your Website 2023</p>
+            </div>
+
+            <div class="social_icon d-flex align-items-center gap-4">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+            <div class="footer_item d-flex mr-3">
+                <p>Privacy Policy</p>
+                <p>Terms of Use</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
