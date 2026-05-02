@@ -22,6 +22,7 @@ The project demonstrates modern web design principles such as responsive layout,
 - Font Awesome
 
 ##  Screenshot
+ ![Website Preview](https://github.com/shimuahsa582/responsive_website_create/blob/a5e794fdde6b6427372adc818a2d63deb1a3cd4d/responsive_website.png)
 
 ##  Live Demo
 Live Link: https://shimuahsa582.github.io/responsive_website_create/
