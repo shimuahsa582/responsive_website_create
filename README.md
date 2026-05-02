@@ -15,7 +15,7 @@ The project demonstrates modern web design principles such as responsive layout,
 ## Technologies Used
 - HTML5
 - CSS3
-- Bootstrap
+- Bootstrap5
 - JQuery Plaguin
 - Bootstrap Carosul
 - Google Fonts
